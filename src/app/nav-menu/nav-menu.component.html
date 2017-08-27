@@ -1,0 +1,41 @@
+<div>
+  <nav class="navbar navbar-default">
+    <div class="container-fluid app-menu-bar">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#app-nav-menu-content" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" routerLink="home">Brand</a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="app-nav-menu-content">
+        <ul class="nav navbar-nav navbar">
+          <li routerLinkActive="active"><a routerLink="home">Home</a></li>
+          <li routerLinkActive="active" class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown">Product Portfolio <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a routerLink="products/boxadhesives">Carton Box Adhesives</a></li>
+              <li><a routerLink="products/boxaddictives">Carton Box Additives</a></li>
+              <li><a routerLink="products/paperadhesives">Paper Core / Cone / Tube / Angle Adhesives</a></li>
+              <li><a routerLink="products/edgeadhesives">Edge Gluing Adhesives</a></li>
+            </ul>
+          </li>
+          <li routerLinkActive="active"><a routerLink="mixingrequirements">Mixing Equipments</a></li>
+          <li routerLinkActive="active"><a routerLink="gumconsultancy">Gum Consultancy</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li routerLinkActive="active"><a routerLink="contact">Contact</a></li>
+          <li routerLinkActive="active"><a routerLink="help">Help</a></li>
+          <li routerLinkActive="active"><a routerLink="faq">FAQ</a></li>
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+  </nav>
+</div>

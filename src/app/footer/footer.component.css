@@ -1,0 +1,62 @@
+.app-footer {
+    background: #2e2e71;
+    padding: 2% 3%;
+    color: #fff;
+}
+
+.btn-learn-more {
+    margin-top: 10px;
+}
+
+.about-us {
+    padding-right: 20px !important;
+}
+
+.contact-us {
+    padding-right: 20px !important;
+}
+
+.follow-us {
+    padding-right: 0px !important;
+}
+
+.contact-list {
+    display: inline-block;
+}
+
+.contact-list .contact-item {
+    margin-bottom: 10px;
+    display: inline-block;
+    width: 100%;
+}
+
+.contact-list .contact-item i{
+    float: left;
+    font-size: 20px;
+    min-width: 25px;
+    max-width: 25px;
+}
+
+.contact-list .contact-item div{
+    float: left;
+    text-align: left;
+    width: 85%;
+}
+
+.map-icon {
+    padding: 5px;
+}
+
+.social-icons .fa{
+    font-size: 1.8em;
+    cursor: pointer;
+    padding-right: 5px;
+}
+
+.social-icons .fa:hover{
+    background: #ed402e;
+}
+
+h4{
+    margin-top: 20px;
+}
