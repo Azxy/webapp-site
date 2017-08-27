@@ -1,0 +1,57 @@
+@import "../../../node_modules/font-awesome/css/font-awesome.min.css";
+@import "../../../node_modules/bootstrap/dist/css/bootstrap.min.css";
+@import "../../../node_modules/bootstrap/dist/css/bootstrap-theme.min.css";
+
+body{
+    font-size: 14px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.no-padding-margin, .row.no-padding-margin, .row.no-padding-margin [class|=col] {
+    margin: 0px;
+    padding: 0px;
+}
+
+.btn:hover{
+    opacity: 0.5;
+    color: white;
+}
+
+.btn.app-btn-black:active {
+    opacity: 1;
+    background: #fff;
+    color: #000;
+}
+
+
+.app-btn-black {
+    background: #000;
+    border-bottom: 3px solid #E1970E;
+    padding: 5px;
+    font-size: 0.8em;
+}
+
+
+/* Extra small devices (phones, less than 768px) */
+@media (max-width: 768px) {
+    
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .app-menu-bar {
+        margin: 0px 5%;
+    }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .app-menu-bar {
+        margin: 0px 10%;
+    }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200) {
+
+}
